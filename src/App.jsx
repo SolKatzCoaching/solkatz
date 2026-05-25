@@ -1,4 +1,4 @@
-import React, { useState } from "react";.
+import React, { useState } from "react";
 import "@fontsource/manrope/400.css";
 import "@fontsource/manrope/500.css";
 import "@fontsource/manrope/700.css";
