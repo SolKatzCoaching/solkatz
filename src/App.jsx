@@ -103,7 +103,7 @@ export default function App() {
               fontSize: 13,
             }}
           >
-            Apply
+            Free Profit Map
           </a>
         </div>
       </header>
@@ -117,34 +117,18 @@ export default function App() {
           alignItems: "center",
           padding: "120px 28px 80px",
           color: colors.white,
+          backgroundImage:
+            "url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=1800&auto=format&fit=crop')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
         }}
       >
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          poster="https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=1800&auto=format&fit=crop"
-          style={{
-            position: "absolute",
-            inset: 0,
-            width: "100%",
-            height: "100%",
-            objectFit: "cover",
-          }}
-        >
-          <source
-            src="https://videos.pexels.com/video-files/3184292/3184292-uhd_2560_1440_25fps.mp4"
-            type="video/mp4"
-          />
-        </video>
-
         <div
           style={{
             position: "absolute",
             inset: 0,
             background:
-              "linear-gradient(90deg, rgba(27,58,75,.96), rgba(27,58,75,.78), rgba(198,123,78,.35))",
+              "linear-gradient(90deg, rgba(27,58,75,.96), rgba(27,58,75,.78), rgba(198,123,78,.36))",
           }}
         />
 
@@ -181,7 +165,7 @@ export default function App() {
           >
             Take Your Business
             <br />
-            to the Next Level 📈
+            to the Next Level
           </h1>
 
           <p
@@ -193,8 +177,8 @@ export default function App() {
               fontWeight: 700,
             }}
           >
-            Got business problems? We love BIG ones. The bigger the problem, the
-            bigger the opportunity hiding behind it.
+            Got business problems? The bigger the problem, the bigger the
+            opportunity hiding behind it.
           </p>
 
           <a
@@ -213,7 +197,7 @@ export default function App() {
               boxShadow: "0 18px 45px rgba(212,168,83,.34)",
             }}
           >
-            Apply to Work With SolKatz →
+            Get a Free Profit Map
           </a>
         </div>
       </section>
@@ -326,16 +310,16 @@ export default function App() {
                 textTransform: "uppercase",
               }}
             >
-              Exclusive Availability
+              Free Profit Map
             </p>
 
             <h2 style={{ ...heading, fontSize: 64, lineHeight: 1 }}>
-              Apply to work with SolKatz
+              Find the hidden profit inside your business
             </h2>
 
             <p style={{ fontSize: 21, lineHeight: 1.7 }}>
-              Enter a powerful conversation that changes your dynamic. Stop
-              guessing. Start measuring your success with clear metrics.
+              We’ll look at where money is leaking, where growth is stuck, and
+              what your clearest next move should be.
             </p>
           </div>
 
@@ -343,7 +327,7 @@ export default function App() {
             {submitted ? (
               <div style={{ padding: 60, textAlign: "center" }}>
                 <h3 style={{ ...heading, color: colors.navy, fontSize: 44 }}>
-                  Application received.
+                  Request received.
                 </h3>
                 <p>Thank you. The next step is a private review.</p>
               </div>
@@ -362,7 +346,7 @@ export default function App() {
                     marginTop: 0,
                   }}
                 >
-                  Start the conversation.
+                  Get your free profit map.
                 </h3>
 
                 {["Full name", "Email", "Phone", "Business / company"].map(
@@ -402,7 +386,7 @@ export default function App() {
                     color: colors.navy,
                   }}
                 >
-                  What is your biggest business problem right now?
+                  What is the biggest money or growth problem in your business?
                   <textarea
                     required
                     rows="4"
@@ -432,7 +416,7 @@ export default function App() {
                     cursor: "pointer",
                   }}
                 >
-                  Apply →
+                  Get a Free Profit Map
                 </button>
               </form>
             )}
