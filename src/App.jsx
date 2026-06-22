@@ -110,12 +110,13 @@ export default function App() {
 
       <section
         style={{
-          minHeight: "100vh",
+          height: "100vh",
+          boxSizing: "border-box",
           position: "relative",
           overflow: "hidden",
           display: "flex",
           alignItems: "center",
-          padding: "120px 28px 80px",
+          padding: "92px 28px 28px",
           color: colors.white,
           backgroundImage:
             "url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=1800&auto=format&fit=crop')",
@@ -157,9 +158,9 @@ export default function App() {
           <h1
             style={{
               ...heading,
-              fontSize: "clamp(56px, 9vw, 112px)",
+              fontSize: "clamp(52px, 8vw, 104px)",
               lineHeight: ".92",
-              margin: "0 auto 26px",
+              margin: "0 auto 24px",
               maxWidth: 1000,
             }}
           >
@@ -170,8 +171,8 @@ export default function App() {
 
           <p
             style={{
-              fontSize: 26,
-              lineHeight: 1.45,
+              fontSize: "clamp(20px, 2vw, 26px)",
+              lineHeight: 1.4,
               maxWidth: 780,
               margin: "0 auto",
               fontWeight: 700,
@@ -185,7 +186,7 @@ export default function App() {
             href="#apply"
             style={{
               display: "inline-block",
-              marginTop: 36,
+              marginTop: 32,
               background: colors.gold,
               color: colors.navy,
               padding: "18px 34px",
